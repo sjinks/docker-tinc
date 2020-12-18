@@ -22,7 +22,7 @@ docker run -it -d --name=tinc \
 
 This will create a network called `vpn` (10.250.0.0/24), and set 10.250.0.1 as node's IP address.
 
-  * `BETWORK_NAME` (default: `vpn`): [network name](https://manpages.debian.org/experimental/tinc/tinc.conf.5.en.html#NAMES)
+  * `NETWORK_NAME` (default: `vpn`): [network name](https://manpages.debian.org/experimental/tinc/tinc.conf.5.en.html#NAMES)
   * `NETWORK_ADDRESS`: IP address for the node (must be unique for every node)
   * `NETWORK_PREFIX` (24 if omitted): network address prefix
   * `NODE_NAME`: node identifier for tinc ([only alphanumeric characters and underscore are allowed](https://manpages.debian.org/experimental/tinc/tinc.conf.5.en.html#NAMES))
