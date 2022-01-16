@@ -6,6 +6,8 @@ on:
 
 jobs:
   buildx:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
